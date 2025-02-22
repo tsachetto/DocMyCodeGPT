@@ -1,0 +1,8 @@
+# Dependências principais
+openai>=1.0.0         # Integração com a API da OpenAI
+python-dotenv>=1.0.0  # Gerenciamento de variáveis de ambiente
+rich>=13.0.0          # Interface CLI estilizada
+reportlab>=4.0.0      # Geração de PDFs profissionais
+
+# Dependências do sistema (Python 3.10+)
+typing_extensions      # Para suporte a tipos em Python antigo
