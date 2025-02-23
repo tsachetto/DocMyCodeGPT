@@ -30,7 +30,7 @@ Funcionalidades
 Pré-requisitos
 --------------
 - Python 3.6+ (recomendado Python 3.8 ou superior)
-- Chave de API do OpenAI: Necessária para acesso à API. Saiba como obter uma chave em https://beta.openai.com/.
+- Chave de API do OpenAI: Necessária para acesso à API.
 - Bibliotecas Python:
   - openai
   - python-dotenv
