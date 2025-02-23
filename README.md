@@ -8,7 +8,7 @@ DocMyCodeGPT - Gerador de Documentação Técnica em PDF
 
 Descrição
 ---------
-O DocMyCodeGPT é uma ferramenta open-source que utiliza a __Inteligência Artificial__ da OpenAi desenvolvida para gerar um report de documentação técnica em PDF a partir de arquivos de código fonte de inúmeras linguagens de programação. Ideal para ter um primeiro contato com o código e melhor compreensão e organização de ideias, uma vez que o relatório além de explicar um pouco do código, avalia pontos fortes e possíveis vulnerabilidades, além de sugerir correções e melhorias. Utilizando a API do OpenAI, o script analisa seu código e produz um relatório técnico detalhado em Markdown – que é, em seguida, convertido em um PDF profissional com formatação personalizada no mesmo diretório do código.
+O DocMyCodeGPT é uma ferramenta open-source que utiliza a __Inteligência Artificial__ da OpenAi para gerar uma documentação técnica em PDF a partir de arquivos de código fonte de inúmeras linguagens de programação. Ideal para ter um primeiro contato com o código e melhor compreensão, organização de ideias e estruturas, uma vez que o relatório explica um pouco do código e suas partes técnicas, avalia pontos fortes e possíveis vulnerabilidades, além de sugerir correções e melhorias. Utilizando a API do OpenAI, o script analisa seu código e produz um relatório técnico detalhado em Markdown – que é, em seguida, convertido em um PDF profissional com formatação personalizada no mesmo diretório do código.
 
 **Importante:** Considerei o uso da engine gpt-4o-mini por ser a mais barata e bastante veloz! ⭐
 
