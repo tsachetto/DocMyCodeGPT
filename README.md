@@ -126,11 +126,20 @@ Este projeto está licenciado sob a Creative Commons Zero (CC0).
 Isso significa que você pode usar, modificar e distribuir o código sem restrições. Para mais detalhes, veja o arquivo LICENSE.
 
 
-Contato
--------
-Para dúvidas, sugestões ou feedback, entre em contato:
-- Email: seu.email@exemplo.com
-- GitHub: https://github.com/seu_usuario
+## 👏 Créditos
 
-------------------------------------------------------
-Desenvolvido com ❤️ por Seu Nome (https://github.com/seu_usuario)
+Desenvolvido por Thomaz Sachetto Silva.
+
+Powered by OpenAI 🧠.
+
+## 📬 Contato
+
+Se tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
+
+**Email:** thomazsachetto@gmail.com
+
+**GitHub:** @tsachetto
+
+Feito com muito ☕ e um pouco de magia da IA! ✨
+
+![BR](https://img.shields.io/badge/contribua%20você%20também!-8A2BE2)
