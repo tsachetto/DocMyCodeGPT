@@ -1,13 +1,14 @@
 DocMyCodeGPT - Gerador de Documentação Técnica em PDF
 ======================================================
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.x-blue)](https://www.python.org/) [![Version](https://img.shields.io/badge/version-3.1-brightgreen)](https://github.com/seu_usuario/DocMyCodeGPT)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-CC0-blue)
+![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-green)
+
 
 Descrição
 ---------
-O DocMyCodeGPT é uma ferramenta de linha de comando que gera documentação técnica em PDF a partir de arquivos de código fonte. 
-Utilizando a API do OpenAI, o script analisa seu código e produz um relatório técnico detalhado em Markdown – que é, em seguida, 
-convertido em um PDF profissional com formatação personalizada.
+O DocMyCodeGPT é uma ferramenta open-source que utiliza a __Inteligência Artificial__ da OpenAi para gerar documentação técnica em PDF a partir de arquivos de código fonte de inúmeras linguagens de programação. Utilizando a API do OpenAI, o script analisa seu código e produz um relatório técnico detalhado em Markdown – que é, em seguida, convertido em um PDF profissional com formatação personalizada.
 
 Funcionalidades
 ----------------
@@ -55,6 +56,18 @@ Configuração
 Crie um arquivo .env na raiz do projeto e adicione sua chave de API do OpenAI:
    OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Certifique-se de que a chave esteja correta e comece com "sk-".
+
+Uma excelente alternativa é criar uma variável de ambiente OPENAI_API_KEY e informar sua chave de API.
+
+**Uso Direto via Curl:**
+
+Instale todas as dependências e rode direto via linha de comando (CMD):
+
+```
+curl -s https://raw.githubusercontent.com/tsachetto/CodeDocGPT/refs/heads/main/src/docmycodegpt.py | python - script.py
+```
+
+Essa é uma maneira bem mais simplificada e prática!
 
 Uso
 ---
@@ -108,7 +121,10 @@ Contribuições são muito bem-vindas! Para contribuir com melhorias, correçõe
 
 Licença
 -------
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a Creative Commons Zero (CC0).
+
+Isso significa que você pode usar, modificar e distribuir o código sem restrições. Para mais detalhes, veja o arquivo LICENSE.
+
 
 Contato
 -------
