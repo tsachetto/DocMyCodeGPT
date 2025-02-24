@@ -3,7 +3,7 @@ DocMyCodeGPT - Gerador de Documentação Técnica em PDF
 Versão 3.1 - PDF Completo
 """
 
-import argparse
+import argparseQ
 import os
 import sys
 from datetime import datetime
@@ -123,41 +123,56 @@ def analyze_code(code_content: str, api_key: str) -> str:
     system_prompt = """Você é um engenheiro de software sênior especializado em análise de código e documentação técnica. 
     Sua análise deve ser estruturada, técnica e completa."""
 
-    user_prompt = f"""Analise o seguinte código e gere um relatório técnico detalhado (pt-br) em markdown seguindo esta estrutura:
+    user_prompt = f"""Analise o seguinte código e gere um relatório técnico detalhado (pt-br) em markdown seguindo esta exata estrutura:
 
     ## 1. Visão Geral
-    - Objetivo principal
-    - Contexto de uso
-    - Arquitetura geral
+
+    - Objetivo principal:
+    
+    - Contexto de uso e aplicações:
+    
+    - Arquitetura geral:
 
     ## 2. Funcionamento Técnico
-    - Fluxo de execução (em até 250 palavras)
-    - Componentes principais
-    - Estruturas de dados
+
+    - Fluxo de execução: (narre um passo a passo do funcionamento em até 300 palavras)
+
+    - Estruturas de dados: (explique a estruturação do código)
+
+    - Principais Componentes e Subcomponentes:
 
     ## 3. Ambiente e Dependências
-    - Linguagem e versão
-    - Bibliotecas essenciais
-    - Requisitos do sistema
+    
+    - Linguagem e versão:
+    
+    - Bibliotecas essenciais e requisitos: (descreve brevemente cada uma e sua aplicação)
 
     ## 4. Análise Crítica
     
-    ### Pontos Fortes
-    - Lista de aspectos positivos
+    ### Destaques
+    
+    - Lista de aspectos positivos:
+    
     ### Vulnerabilidades
-    - Possíveis riscos
+    
+    - Possíveis riscos e vulnerabilidades:
+    
     ### Recomendações
-    - Sugestões de melhorias
+    
+    - Sugestões de melhorias: (informe dicas e truques para aperfeiçoamento e melhoria do código)
 
     ## 5. Conclusão
-    - Avaliação geral
-    - Considerações finais
+    
+    - Avaliação geral: (report técnico abrangente e bem explicado contendo entre 150 e 300 palavras)
+    
+    - Considerações finais:
 
+    
     Formato requerido:
     - Títulos com ##/### 
     - Listas com marcadores
     - Sem formatação extra
-
+    
     Código a analisar:
     ```{code_content}```"""
 
